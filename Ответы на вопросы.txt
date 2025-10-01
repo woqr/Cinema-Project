@@ -1,0 +1,24 @@
+1. Назначение редактора Figma? 
+2. Как скачать картинку из макета?
+3. Назначение вкладки inspect?
+4. Что такое шапка сайта?
+5. какой тег ему соответсвует?
+6. Для чего необходим файл normalaize.css?
+7. Вставьте ссылку для скачивания normalaize.css
+8. Пропишите команду для подключения normalaize.css
+9. Как подключить шрифт Roboto?
+
+
+1. Создание макетов для IT-продуктов
+2. Выделяем нужный элемент -> справа в вкладке "Design" находим вкладку "Export" -> нажимаем на "+" -> настраиваем нужный формат картинки и скачиваем ее.
+3. Просмотр css кода элементов макета.
+4. Начальный элемент html-страницы, который чаще всего в себя включает: логотип, навигацию, аватарку пользователя.
+5. header.
+6. Для правильного отображения html-страницы в различных браузерах.
+7. https://necolas.github.io/normalize.css/8.0.1/normalize.css
+8. <link rel="stylesheet" href="/css/normalize.css">.
+9. В тег head вставить конструкцию 
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    	<link href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+а в файле css в селекторе body прописать font-family: "Roboto", sans-serif;.
